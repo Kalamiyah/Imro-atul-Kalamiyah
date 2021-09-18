@@ -2,14 +2,28 @@ body {
   font-family: "Avenir Next";
 }
 
-/* Gunakan property list-style untuk menghilangkan bullet dari tag <li> */
 li {
- list-style: none; 
+  list-style: none;
+  /* Pindahkan kedua baris dibawah kesekitar baris 25 */
 }
 
 .header {
-  background-color: #f7f2b4;
+  background-color: #26d0c9;
+  color: #fff;
   height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+/* Tambahkan CSS tag <li> yang diatas kedalam header-list */
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+  
 }
 
 .main {
