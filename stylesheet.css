@@ -4,6 +4,9 @@ h1 {
 h2 {
   color:#7FFFD4;
 }
+body {
+  font-family:"Avenir Next";
+}
 .header {
   background-color:#7FFFD4;
   height:90px;
