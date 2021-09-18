@@ -52,6 +52,7 @@ li {
 /* Gantikan float property footer-list */
 .footer-list {
   float:right;
+  padding: 40px 40px 40px 40px;
 }
 
 /* Tambahkan CSS untuk tag <li> kedalam footer-list */
