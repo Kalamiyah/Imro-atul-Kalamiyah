@@ -4,6 +4,18 @@ h1 {
 h2 {
   color:#7FFFD4;
 }
+.header {
+  background-color:#7FFFD4;
+  height:90px;
+}
+.main {
+  background-color:#bdf7f1;
+  height:600px;
+}
+.footer {
+  background-color:#ceccf3;
+  height:270px;
+}
 p {
   /*Berikut ialah jurusan-jurusan yang ada di Fakultas Sains dan Teknologi UIN Maulana Malik Ibrahim Malang*/
   color:#D2691E;
