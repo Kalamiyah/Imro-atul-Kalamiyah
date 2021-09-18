@@ -1,36 +1,23 @@
-h1 {
-  color:#ff0000;
-}
-h2 {
-  color:#7FFFD4;
-}
 body {
-  font-family:"Avenir Next";
+  font-family: "Avenir Next";
 }
-.header {
-  background-color:#7FFFD4;
-  height:90px;
-}
-.main {
-  background-color:#bdf7f1;
-  height:600px;
-}
-.footer {
-  background-color:#ceccf3;
-  height:270px;
-}
-p {
-  /*Berikut ialah jurusan-jurusan yang ada di Fakultas Sains dan Teknologi UIN Maulana Malik Ibrahim Malang*/
-  color:#D2691E;
-  font-size:10px;
-  font-family:serif;
-}
-img {
-  /*Berikut ialah jurusan-jurusan yang ada di Fakultas Sains dan Teknologi UIN Maulana Malik Ibrahim Malang*/
-  width:500px;
-  height:200px;
-  background-color:#006400;
-}
+
+/* Gunakan property list-style untuk menghilangkan bullet dari tag <li> */
 li {
-  color:#00CED1;
+ list-style: none; 
+}
+
+.header {
+  background-color: #f7f2b4;
+  height: 90px;
+}
+
+.main {
+  background-color: #bdf7f1;
+  height: 600px;
+}
+
+.footer {
+  background-color: #ceccf3;
+  height: 270px;
 }
