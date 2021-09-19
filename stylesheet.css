@@ -11,7 +11,10 @@ li {
   color: #fff;
   height: 90px;
 }
-
+.img {
+  height:354;
+  weight:300;
+}
 .header-logo {
   float: left;
   font-size: 36px;
