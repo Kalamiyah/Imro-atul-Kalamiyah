@@ -1,7 +1,10 @@
 body {
   font-family: "Avenir Next";
 }
-
+div {
+  height: 200px;
+  background-image: url(coffeee.jpg);
+}
 li {
   list-style: none;
 }
