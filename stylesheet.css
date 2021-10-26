@@ -10,6 +10,7 @@ li {
   background-color: #26d0c9;
   color: #fff;
   height: 90px;
+  background-image: url(coffeee.jpg);
   
 }
 
@@ -22,7 +23,7 @@ li {
 .main {
   padding: 100px 80px;
   background-color: #26d0c9;
-  background-image: url(coffeee.jpg);
+  
 }
 
 .copy-container h1 {
