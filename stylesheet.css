@@ -19,6 +19,9 @@ li {
   padding: 33px 20px;
   text-align: right;
 }
+.ul {
+  text-align: right;
+}
 
 .main {
   padding: 100px 80px;
