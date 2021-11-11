@@ -1,7 +1,10 @@
 body {
   font-family: "Avenir Next";
 }
-
+.logo1 {
+border :3px solid black;
+  
+}
 li {
   list-style: none;
 }
