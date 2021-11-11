@@ -13,6 +13,18 @@ li {
   margin: auto;
   position: relative;
 }
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: #ffff;
+  z-index: 1;
+  border-bottom: 1px solid;
+}
 .header {
   background-color: #26d0c9;
   color: #fff;
