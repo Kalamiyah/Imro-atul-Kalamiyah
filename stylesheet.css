@@ -8,12 +8,14 @@ border :3px solid black;
 li {
   list-style: none;
 }
-
+section {
+background-image: url(header.jpg);
+}
 .header {
   background-color: #26d0c9;
   color: #fff;
   height: 90px;
-  background-image: url(header.jpg);
+  
   
 }
 
