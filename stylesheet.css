@@ -22,7 +22,7 @@ li {
   float: left;
   padding: 33px 20px;
 }
-#menu {
+.menu {
 background-image: url(header.jpg);
 }
 .main {
