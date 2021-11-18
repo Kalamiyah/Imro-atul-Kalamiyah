@@ -34,50 +34,7 @@
             <button type="button">Read More</button>
           </div>
         </div>
-        <div class="img">
-          <div class="img-banner">
-            <img src="coffee.jpg" />
-            <div class="info-dot">
-              <button><i class="fa fa-heart"></i></button>
-              <div class="info-detail">
-                <h3>Coffee 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, cumque?</p>
-              </div>
-            </div>
-            <div class="info-dot dot2">
-              <button><i class="fa fa-heart"></i></button>
-              <div class="info-detail">
-                <h3>Coffee 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, cumque?</p>
-              </div>
-            </div>
-
-            <div class="info-dot dot3">
-              <button><i class="fa fa-heart"></i></button>
-              <div class="info-detail">
-                <h3>Coffee 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, cumque?</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-      $(function () {
-        $(".info-dot").on("click", function (e) {
-          e.stopPropagation();
-          $(this).find(".info-detail").addClass("show");
-          $(".info-dot").not(this).find(".info-detail").removeClass("show");
-        });
-        $(document).on("click", function () {
-          $(".info-detail").removeClass("show");
-        });
-        $(".info-detail").on("click", function (e) {
-          e.stopPropagation();
-        });
-      });
+        
     </script>
   </body>
 </html>
