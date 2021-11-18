@@ -1,175 +1,213 @@
 * {
-  margin: 0;
-  outline: none;
-  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
 }
+
 body {
-  font-family: "Agency FB", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
 }
 .wrapper {
-  background-color: #4c403d;
-}
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 99;
-}
-.navbar {
-  width: 90%;
-  height: 15vh;
+  width: 1100px;
   margin: auto;
-  display: flex;
-  align-items: center;
-}
-.logo {
-  width: 50px;
-  cursor: pointer;
-}
-nav {
-  flex: 1;
-  text-align: right;
-}
-nav ul li {
-  list-style: none;
-  display: inline-block;
-  margin-left: 60px;
-}
-nav ul li a {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-  padding: 5px 2px;
-}
-nav ul li a:hover {
-  color: violet;
-}
-.banner {
-  height: 100vh;
-}
-text {
-  width: 55%;
-  height: 100%;
-  float: left;
-  padding: 100px 70px 0;
-  display: flex;
-  align-items: center;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  animation: mymove 3s cubic-bezier(0.44, 0.05, 0, 0.98) 0s;
-}
-.text h1 {
-  font-size: 50px;
-  font-weight: 800;
-  color: white;
-  line-height: 100px;
-}
-.text p {
-  color: white;
-  line-height: 28px;
-  padding: 20px 240px 0 0;
-}
-.text button {
-  color: #f0f8ff;
-  padding: 10px 25px;
-  background: aqua;
-  border: 1px solid #ffffff;
-  border-radius: 5px;
-  outline: none;
-  cursor: pointer;
-}
-.text button:hover {
-  background: #ffffff;
-  border: 2px solid white;
-}
-.img {
-  width: 35%;
-  float: left;
-  display: flex;
-  align-items: center;
-  height: 100%;
-  padding-top: 80px;
-}
-.img-inner {
   position: relative;
 }
-.info-dot {
-  position: absolute;
-  top: 50px;
-  z-index: 99;
+.logo a {
+  font-size: 50px;
+  font-weight: 800;
+  float: left;
+  font-family: Courier;
+  color: #1db9c3;
+  padding-top: 0px;
+  margin: 0px;
 }
-.info-dot.dot2 {
-  top: 24%;
-  right: 60px;
+.menu {
+  float: right;
 }
-.info-dot.dot3 {
-  top: 90%;
-  right: 50%;
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: #ffff;
+  z-index: 1;
+  border-bottom: 1px solid;
 }
-.info-dot button {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  background-color: wheat;
-  border: none;
-  border-radius: 50px;
-  font-size: 16px;
-  color: aquamarine;
-  cursor: pointer;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
-.info-dot button::before {
-  content: "";
-  position: absolute;
-  width: 80px;
-  height: 80px;
-  background-color: aquamarine;
-  top: -20px;
-  left: -20px;
-  border-radius: 50px;
-  z-index: -1;
-  transform: scale(0.5);
-  animation: dots ease 2s 0s infinite;
+nav ul li {
+  float: left;
 }
-@keyframes dots {
-  100% {
-    transform: scale(1.5);
-    opacity: 0;
-  }
-}
-.info-dot.dot2 button::before {
-  animation-delay: 4s;
-}
-.info-dot.dot3 button::before {
-  animation-delay: 8s;
-}
-.info-detail {
-  width: 400px;
-  padding: 40px;
-  position: fixed;
-  top: 50%;
-  left: 0%;
-  border-radius: 10px;
-  transform: translate(-50%, -50%);
-  background: wheat;
+nav ul li a {
+  color: black;
+  font-weight: bold;
   text-align: center;
-  right: 0;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.kolom .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Comic sans ms";
+  color: #1db9c3;
+}
+h2 {
+  font-family: "Comic sans ms";
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #1db9c3;
+  width: 100%;
+  line-height: 50px;
+}
+a.tbl-biru {
+  background: #1db9c3;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-biru:hover {
+  background: blue;
+  text-decoration: none;
+}
+a.tbl-pink {
+  background: #1db9c3;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+a.tbl-pink:hover {
+  background: blue;
+  text-decoration: none;
+}
+p {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+}
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+.tutor-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.kartu-tutor {
+  width: 20%;
   margin: 0 auto;
-  box-shadow: 0 15px 150px #333;
-  transform: scaleY(0);
-  transition: all ease 0.5s;
-  transition: all ease 0.5s;
-  z-index: 9;
 }
-.info-detail h3 {
-  margin-bottom: 15px;
+
+.kartu-tutor p {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 25px;
+  text-align: center;
+  color: #1db9c3;
 }
-.info-detail p {
-  line-height: 28px;
+.partner-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
 }
-.info-detail.show {
-  transform: scaleY(1);
+.kartu-partner {
+  width: 20%;
+  margin: 0 auto;
+}
+#contact {
+  background: #dedede;
+  padding: 50px 0px 50px 0px;
+}
+.footer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.footer-section {
+  width: 20%;
+  margin: 0 auto;
+}
+h3 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #1db9c3;
+  width: 100%;
+  line-height: 50px;
+}
+#copyright {
+  text-align: center;
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  margin-top: 10px;
+}
+@media screen and (max-width: 991.98px) {
+  .wrapper {
+    width: 90%;
+  }
+  .logo a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  nav .menu {
+    width: 100%;
+    margin: 0;
+  }
+  nav .menu ul {
+    text-align: center;
+    margin: auto;
+    line-height: 60px;
+  }
+  nav .menu li {
+    display: inline-block;
+    float: none;
+  }
+  section {
+    display: block;
+  }
+  section img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .kartu-tutor {
+    width: 50%;
+  }
+  .kartu-partner {
+    width: 50%;
+  }
 }
