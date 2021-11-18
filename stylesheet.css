@@ -63,8 +63,8 @@ text {
   animation: mymove 3s cubic-bezier(0.44, 0.05, 0, 0.98) 0s;
 }
 .text h1 {
-  font-size: 120px;
-  font-weight: 900;
+  font-size: 50px;
+  font-weight: 800;
   color: white;
   line-height: 100px;
 }
