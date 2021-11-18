@@ -7,7 +7,7 @@ body {
   font-family: "Agency FB", sans-serif;
 }
 .wrapper {
-  background-color: aquamarine;
+  background-color: #4c403d;
 }
 header {
   position: fixed;
@@ -28,7 +28,7 @@ header {
   align-items: center;
 }
 .logo {
-  width: 150px;
+  width: 50px;
   cursor: pointer;
 }
 nav {
