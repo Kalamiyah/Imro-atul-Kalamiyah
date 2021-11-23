@@ -96,8 +96,8 @@ a.tbl-biru:hover {
   text-decoration: none;
 }
 a.tbl-pink {
-  background: #1db9c3;
-  border-radius: 20px;
+  background: #a49b92;
+  border-radius: 15px 50px 30px;
   margin-top: 20px;
   padding: 15px 20px 15px 20px;
   color: #ffff;
@@ -105,7 +105,7 @@ a.tbl-pink {
   font-weight: bold;
 }
 a.tbl-pink:hover {
-  background: blue;
+  background: #877c71;
   text-decoration: none;
 }
 p {
